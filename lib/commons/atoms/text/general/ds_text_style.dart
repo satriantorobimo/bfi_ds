@@ -14,5 +14,8 @@ class DSTextStyle {
       fontWeight: FontWeight.normal);
 
   static const TextStyle titleTextStyle = TextStyle(
-      fontSize: 21.0, fontFamily: DSFont.Poppins, color: Colors.black);
+      fontSize: 21.0,
+      fontFamily: DSFont.Poppins,
+      color: Colors.black,
+      fontWeight: FontWeight.bold);
 }

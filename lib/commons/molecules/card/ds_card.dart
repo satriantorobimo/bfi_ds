@@ -43,9 +43,19 @@ class DSCard extends StatelessWidget {
             leading: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.asset(
-                  icon,
-                  width: 39,
+                Container(
+                  width: 40,
+                  height: 40,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      color: Colors.white),
+                  child: Padding(
+                    padding: const EdgeInsets.all(4.0),
+                    child: Image.asset(
+                      icon,
+                      width: 32,
+                    ),
+                  ),
                 )
               ],
             ),
